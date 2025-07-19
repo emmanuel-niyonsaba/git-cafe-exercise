@@ -113,3 +113,50 @@ branch 'ft/menu' set up to track 'origin/ft/menu'.
 
 user@EmmauelNiyonsaba MINGW64 /d/CodingRelated/git-cafe-exercise (ft/menu)
 $
+```
+## Bunble 6
+## Exercises
+```bash
+
+user@EmmauelNiyonsaba MINGW64 /d/CodingRelated/git-cafe-exercise (ft/menu)
+$ git checkout -b fix/menu
+Switched to a new branch 'fix/menu'
+
+user@EmmauelNiyonsaba MINGW64 /d/CodingRelated/git-cafe-exercise (fix/menu)
+$ git add .
+
+user@EmmauelNiyonsaba MINGW64 /d/CodingRelated/git-cafe-exercise (fix/menu)
+$ git commit -m"refactor: add contact"
+[fix/menu 1f4b7c3] refactor: add contact
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+user@EmmauelNiyonsaba MINGW64 /d/CodingRelated/git-cafe-exercise (fix/menu)
+$ git push
+fatal: The current branch fix/menu has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin fix/menu
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+user@EmmauelNiyonsaba MINGW64 /d/CodingRelated/git-cafe-exercise (fix/menu)
+$  git push --set-upstream origin fix/menu
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 311 bytes | 311.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'fix/menu' on GitHub by visiting:
+remote:      https://github.com/emmanuel-niyonsaba/git-cafe-exercise/pull/new/fix/menu
+remote:
+To https://github.com/emmanuel-niyonsaba/git-cafe-exercise.git
+ * [new branch]      fix/menu -> fix/menu
+branch 'fix/menu' set up to track 'origin/fix/menu'.
+
+user@EmmauelNiyonsaba MINGW64 /d/CodingRelated/git-cafe-exercise (fix/menu)
+$
